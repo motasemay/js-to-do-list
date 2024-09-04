@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(93, 141, 65);
+}
+.toDoList{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.842);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px; 
+      display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+.button{
+    background-color:rgb(93, 141, 65);
+    border-radius: 15%;
+}
+.list {
+    margin-top: 10px;
+    list-style: none;
+    text-align: left;
+    margin-left: 4px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ 
+}
+.list li{
+    display: flex;
+    align-items: center;
+    gap: 2px; 
+    background-color: rgba(78, 156, 71, 0.349);
+    padding: 4px 6px;
+    border-radius: 3px;
+    
+
+}
+.inputForm input:first-of-type{
+    padding: 3px;
+    border-radius: 5px;
+    border: white solid;
+}
+.inputForm input:last-of-type{
+    padding: 3px;
+    color: white ;
+    border:rgb(93, 141, 65) solid;
+    
+}
+.deleteTask{
+    text-decoration: line-through;
+
+}
